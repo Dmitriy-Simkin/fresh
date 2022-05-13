@@ -114,7 +114,7 @@
 
            <form class="header__center-form form" action="#">
              <label class="form__label" for="search"></label>
-
+            
              <input class="form__search" type="search" name="search" id="search" placeholder="Найти в магазине ..."
                required>
 
@@ -124,15 +124,14 @@
            <ul class="header__center-list header__list">
              <li class="header__list-item" tabindex="0">
                <a class="header__list-link" href="#" style="background-image: url('images/header/header-user.svg');">
-                 <span class="sr-only">Вход/регистрация</span>
-               </a>
+                <span class="sr-only">Вход/регистрация</span>
+              </a>
              </li>
 
              <li class="header__list-item" tabindex="0">
-               <a class="header__list-link" href="#"
-                 style="background-image: url('images/header/header-favorite.svg');">
-                 <span class="sr-only">Понравившиеся товары</span>
-                 <span class="header__list-circle">
+               <a class="header__list-link" href="#" style="background-image: url('images/header/header-favorite.svg');">
+                <span class="sr-only">Понравившиеся товары</span>
+                <span class="header__list-circle">
                    <span class="header__list-calc">12</span>
                  </span>
                </a>
@@ -140,8 +139,8 @@
 
              <li class="header__list-item" tabindex="0">
                <a class="header__list-link" href="#" style="background-image: url('images/header/header-cart.svg');">
-                 <span class="sr-only">Товары в корзине</span>
-                 <span class="header__list-circle">
+                <span class="sr-only">Товары в корзине</span>
+                <span class="header__list-circle">
                    <span class="header__list-calc">12</span>
                  </span>
                </a>
@@ -241,25 +240,16 @@
              <article class="product">
                <div class="product__header">
                  <div class="product__header-badges">
-                   <span class="product__header-new"
-                     style="background-image: url('images/product-card/badge-green.svg');">
-                     <span class="sr-only">Новинка</span>
-                   </span>
-
-                   <span class="product__header-sale">-50%</span>
+                   <span class="product__header-new" style="background-image: url('images/product-card/badge-green.svg');"></span>
+                   <span class="product__header-sale">50%</span>
                  </div>
 
                  <button class="product__header-like" style="background-image: url('images/product-card/favorite.svg');"
-                   type="button">
-                   <span class="sr-only">Отметить понравившиеся</span>
-                 </button>
+                   type="button"></button>
                </div>
 
                <a class="product__link" href="#">
-                 <div class="product__picture" style="background-image: url('images/products/pineapple.jpg');">
-
-                   <span class="sr-only">Ананас</span>
-                 </div>
+                 <div class="product__picture" style="background-image: url('images/products/pineapple.jpg');"></div>
                </a>
 
                <h3 class="product__text">Ананас, 1кг</h3>
@@ -272,26 +262,14 @@
 
                  <div class="product__counter counter">
                    <button class="counter__btn btn" data-direction="minus"
-                     style="background-image: url('images/product-card/minus.svg');" type="button">
-                     <span class="sr-only">Убавить товар</span>
-                   </button>
-
-                   <span>
-                     <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
-                     <span class="sr-only">Количество товара</span>
-                   </span>
-
+                     style="background-image: url('images/product-card/minus.svg');" type="button"></button>
+                   <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
                    <button class="counter__btn counter__btn--border " data-direction="plus"
-                     style="background-image: url('images/product-card/plus.svg');" type="button">
-                     <span class="sr-only">Добавить товар</span>
-                   </button>
+                     style="background-image: url('images/product-card/plus.svg');" type="button"></button>
                  </div>
 
                  <button class="product__bottom-cart" type="button">
-                   <span class="sr-only">Добавить в корзину</span>
-
-                   <span class="product__bottom-cart-img"
-                     style="background-image: url('images/product-card/cart-btn.svg');"></span>
+                  <span class="product__bottom-cart-img" style="background-image: url('images/product-card/cart-btn.svg');"></span>
                  </button>
                </div>
              </article>
@@ -303,16 +281,11 @@
                  <div class="product__header-badges"></div>
 
                  <button class="product__header-like" style="background-image: url('images/product-card/favorite.svg');"
-                   type="button">
-                   <span class="sr-only">Отметить понравившиеся</span>
-                 </button>
+                   type="button"></button>
                </div>
 
                <a class="product__link" href="#">
-                 <div class="product__picture" style="background-image: url('images/products/lemon.jpg');">
-
-                   <span class="sr-only">Лимон</span>
-                 </div>
+                 <div class="product__picture" style="background-image: url('images/products/lemon.jpg');"></div>
                </a>
 
                <h3 class="product__text">Лимон, 1кг</h3>
@@ -324,26 +297,14 @@
 
                  <div class="product__counter counter">
                    <button class="counter__btn btn" data-direction="minus"
-                     style="background-image: url('images/product-card/minus.svg');" type="button">
-                     <span class="sr-only">Убавить товар</span>
-                   </button>
-
-                   <span>
-                     <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
-                     <span class="sr-only">Количество товара</span>
-                   </span>
-
+                     style="background-image: url('images/product-card/minus.svg');" type="button"></button>
+                   <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
                    <button class="counter__btn counter__btn--border " data-direction="plus"
-                     style="background-image: url('images/product-card/plus.svg');" type="button">
-                     <span class="sr-only">Добавить товар</span>
-                   </button>
+                     style="background-image: url('images/product-card/plus.svg');" type="button"></button>
                  </div>
 
                  <button class="product__bottom-cart" type="button">
-                   <span class="sr-only">Добавить в корзину</span>
-
-                   <span class="product__bottom-cart-img"
-                     style="background-image: url('images/product-card/cart-btn.svg');"></span>
+                  <span class="product__bottom-cart-img" style="background-image: url('images/product-card/cart-btn.svg');"></span>
                  </button>
                </div>
              </article>
@@ -353,23 +314,15 @@
              <article class="product">
                <div class="product__header">
                  <div class="product__header-badges">
-                   <span class="product__header-hit"
-                     style="background-image: url('images/product-card/badge-orange.svg');">
-                     <span class="sr-only">Новинка</span>
-                   </span>
+                   <span class="product__header-hit" style="background-image: url('images/product-card/badge-orange.svg');"></span>
                  </div>
 
                  <button class="product__header-like" style="background-image: url('images/product-card/favorite.svg');"
-                   type="button">
-                   <span class="sr-only">Отметить понравившиеся</span>
-                 </button>
+                   type="button"></button>
                </div>
 
                <a class="product__link" href="#">
-                 <div class="product__picture" style="background-image: url('images/products/pitahaya.jpg');">
-
-                   <span class="sr-only">Питахайя</span>
-                 </div>
+                 <div class="product__picture" style="background-image: url('images/products/pitahaya.jpg');"></div>
                </a>
 
                <h3 class="product__text">Питахайя красная с белой мякотью, 1шт</h3>
@@ -381,27 +334,15 @@
 
                  <div class="product__counter counter">
                    <button class="counter__btn btn" data-direction="minus"
-                     style="background-image: url('images/product-card/minus.svg');" type="button">
-                     <span class="sr-only">Убавить товар</span>
-                   </button>
-
-                   <span>
-                     <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
-                     <span class="sr-only">Количество товара</span>
-                   </span>
-
+                     style="background-image: url('images/product-card/minus.svg');" type="button"></button>
+                   <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
                    <button class="counter__btn counter__btn--border " data-direction="plus"
-                     style="background-image: url('images/product-card/plus.svg');" type="button">
-                     <span class="sr-only">Добавить товар</span>
-                   </button>
+                     style="background-image: url('images/product-card/plus.svg');" type="button"></button>
                  </div>
 
-                 <button class="product__bottom-cart" type="button">
-                   <span class="sr-only">Добавить в корзину</span>
-
-                   <span class="product__bottom-cart-img"
-                     style="background-image: url('images/product-card/cart-btn.svg');"></span>
-                 </button>
+                  <button class="product__bottom-cart" type="button">
+                   <span class="product__bottom-cart-img" style="background-image: url('images/product-card/cart-btn.svg');"></span>
+                  </button>
                </div>
              </article>
            </li>
@@ -412,16 +353,11 @@
                  <div class="product__header-badges"></div>
 
                  <button class="product__header-like" style="background-image: url('images/product-card/favorite.svg');"
-                   type="button">
-                   <span class="sr-only">Отметить понравившиеся</span>
-                 </button>
+                   type="button"></button>
                </div>
 
                <a class="product__link" href="#">
-                 <div class="product__picture" style="background-image: url('images/products/ketchup.jpg');">
-
-                   <span class="sr-only">Кетчуп детский</span>
-                 </div>
+                 <div class="product__picture" style="background-image: url('images/products/ketchup.jpg');"></div>
                </a>
 
                <h3 class="product__text">Кетчуп томатный детский органический Bio-Zentrale 500мл, 1 шт</h3>
@@ -433,27 +369,15 @@
 
                  <div class="product__counter counter">
                    <button class="counter__btn btn" data-direction="minus"
-                     style="background-image: url('images/product-card/minus.svg');" type="button">
-                     <span class="sr-only">Убавить товар</span>
-                   </button>
-
-                   <span>
-                     <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
-                     <span class="sr-only">Количество товара</span>
-                   </span>
-
+                     style="background-image: url('images/product-card/minus.svg');" type="button"></button>
+                   <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
                    <button class="counter__btn counter__btn--border " data-direction="plus"
-                     style="background-image: url('images/product-card/plus.svg');" type="button">
-                     <span class="sr-only">Добавить товар</span>
-                   </button>
+                     style="background-image: url('images/product-card/plus.svg');" type="button"></button>
                  </div>
 
                  <button class="product__bottom-cart" type="button">
-                   <span class="sr-only">Добавить в корзину</span>
-
-                   <span class="product__bottom-cart-img"
-                     style="background-image: url('images/product-card/cart-btn.svg');"></span>
-                 </button>
+                   <span class="product__bottom-cart-img" style="background-image: url('images/product-card/cart-btn.svg');"></span>
+                  </button>
                </div>
            </li>
 
@@ -461,23 +385,15 @@
              <article class="product">
                <div class="product__header">
                  <div class="product__header-badges">
-                   <span class="product__header-hit"
-                     style="background-image: url('images/product-card/badge-orange.svg');">
-                     <span class="sr-only">Новинка</span>
-                   </span>
+                   <span class="product__header-hit" style="background-image: url('images/product-card/badge-orange.svg');"></span>
                  </div>
 
                  <button class="product__header-like" style="background-image: url('images/product-card/favorite.svg');"
-                   type="button">
-                   <span class="sr-only">Отметить понравившиеся</span>
-                 </button>
+                   type="button"></button>
                </div>
 
                <a class="product__link" href="#">
-                 <div class="product__picture" style="background-image: url('images/products/carrot.jpg');">
-
-                   <span class="sr-only">Морковь</span>
-                 </div>
+                 <div class="product__picture" style="background-image: url('images/products/carrot.jpg');"></div>
                </a>
 
                <h3 class="product__text">Морковь молодая с бабушкиной грядки, 1кг</h3>
@@ -489,26 +405,14 @@
 
                  <div class="product__counter counter">
                    <button class="counter__btn btn" data-direction="minus"
-                     style="background-image: url('images/product-card/minus.svg');" type="button">
-                     <span class="sr-only">Убавить товар</span>
-                   </button>
-
-                   <span>
-                     <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
-                     <span class="sr-only">Количество товара</span>
-                   </span>
-
+                     style="background-image: url('images/product-card/minus.svg');" type="button"></button>
+                   <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
                    <button class="counter__btn counter__btn--border " data-direction="plus"
-                     style="background-image: url('images/product-card/plus.svg');" type="button">
-                     <span class="sr-only">Добавить товар</span>
-                   </button>
+                     style="background-image: url('images/product-card/plus.svg');" type="button"></button>
                  </div>
 
                  <button class="product__bottom-cart" type="button">
-                   <span class="sr-only">Добавить в корзину</span>
-
-                   <span class="product__bottom-cart-img"
-                     style="background-image: url('images/product-card/cart-btn.svg');"></span>
+                  <span class="product__bottom-cart-img" style="background-image: url('images/product-card/cart-btn.svg');"></span>
                  </button>
                </div>
              </article>
@@ -518,20 +422,15 @@
              <article class="product">
                <div class="product__header">
                  <div class="product__header-badges">
-                   <span class="product__header-sale">-30%</span>
+                   <span class="product__header-sale">30%</span>
                  </div>
 
                  <button class="product__header-like" style="background-image: url('images/product-card/favorite.svg');"
-                   type="button">
-                   <span class="sr-only">Отметить понравившиеся</span>
-                 </button>
+                   type="button"></button>
                </div>
 
                <a class="product__link" href="#">
-                 <div class="product__picture" style="background-image: url('images/products/sanpellegrino.jpg');">
-
-                   <span class="sr-only">Напиток сокосодержащий Красный апельсин</span>
-                 </div>
+                 <div class="product__picture" style="background-image: url('images/products/sanpellegrino.jpg');"></div>
                </a>
 
                <h3 class="product__text">Напиток сокосодержащий Sanpellegrino Aranciata Orange Красный апельсин
@@ -545,26 +444,14 @@
 
                  <div class="product__counter counter">
                    <button class="counter__btn btn" data-direction="minus"
-                     style="background-image: url('images/product-card/minus.svg');" type="button">
-                     <span class="sr-only">Убавить товар</span>
-                   </button>
-
-                   <span>
-                     <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
-                     <span class="sr-only">Количество товара</span>
-                   </span>
-
+                     style="background-image: url('images/product-card/minus.svg');" type="button"></button>
+                   <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
                    <button class="counter__btn counter__btn--border " data-direction="plus"
-                     style="background-image: url('images/product-card/plus.svg');" type="button">
-                     <span class="sr-only">Добавить товар</span>
-                   </button>
+                     style="background-image: url('images/product-card/plus.svg');" type="button"></button>
                  </div>
 
                  <button class="product__bottom-cart" type="button">
-                   <span class="sr-only">Добавить в корзину</span>
-
-                   <span class="product__bottom-cart-img"
-                     style="background-image: url('images/product-card/cart-btn.svg');"></span>
+                  <span class="product__bottom-cart-img" style="background-image: url('images/product-card/cart-btn.svg');"></span>
                  </button>
                </div>
              </article>
@@ -574,23 +461,15 @@
              <article class="product">
                <div class="product__header">
                  <div class="product__header-badges">
-                   <span class="product__header-new"
-                     style="background-image: url('images/product-card/badge-green.svg');">
-                     <span class="sr-only">Новинка</span>
-                   </span>
+                   <span class="product__header-new" style="background-image: url('images/product-card/badge-green.svg');"></span>
                  </div>
 
                  <button class="product__header-like" style="background-image: url('images/product-card/favorite.svg');"
-                   type="button">
-                   <span class="sr-only">Отметить понравившиеся</span>
-                 </button>
+                   type="button"></button>
                </div>
 
                <a class="product__link" href="#">
-                 <div class="product__picture" style="background-image: url('images/products/caffe.jpg');">
-
-                   <span class="sr-only">Кофе с коноплей</span>
-                 </div>
+                 <div class="product__picture" style="background-image: url('images/products/caffe.jpg');"></div>
                </a>
 
                <h3 class="product__text">Кофе с коноплей органический Caffé Salomoni 250г</h3>
@@ -602,26 +481,14 @@
 
                  <div class="product__counter counter">
                    <button class="counter__btn btn" data-direction="minus"
-                     style="background-image: url('images/product-card/minus.svg');" type="button">
-                     <span class="sr-only">Убавить товар</span>
-                   </button>
-
-                   <span>
-                     <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
-                     <span class="sr-only">Количество товара</span>
-                   </span>
-
+                     style="background-image: url('images/product-card/minus.svg');" type="button"></button>
+                   <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
                    <button class="counter__btn counter__btn--border " data-direction="plus"
-                     style="background-image: url('images/product-card/plus.svg');" type="button">
-                     <span class="sr-only">Добавить товар</span>
-                   </button>
+                     style="background-image: url('images/product-card/plus.svg');" type="button"></button>
                  </div>
 
                  <button class="product__bottom-cart" type="button">
-                   <span class="sr-only">Добавить в корзину</span>
-
-                   <span class="product__bottom-cart-img"
-                     style="background-image: url('images/product-card/cart-btn.svg');"></span>
+                  <span class="product__bottom-cart-img" style="background-image: url('images/product-card/cart-btn.svg');"></span>
                  </button>
                </div>
              </article>
@@ -631,23 +498,15 @@
              <article class="product">
                <div class="product__header">
                  <div class="product__header-badges">
-                   <span class="product__header-new"
-                     style="background-image: url('images/product-card/badge-green.svg');">
-                     <span class="sr-only">Новинка</span>
-                   </span>
+                   <span class="product__header-new" style="background-image: url('images/product-card/badge-green.svg');"></span>
                  </div>
 
                  <button class="product__header-like" style="background-image: url('images/product-card/favorite.svg');"
-                   type="button">
-                   <span class="sr-only">Отметить понравившиеся</span>
-                 </button>
+                   type="button"></button>
                </div>
 
                <a class="product__link" href="#">
-                 <div class="product__picture" style="background-image: url('images/products/pepper.jpg');">
-
-                   <span class="sr-only">Перец оранжевый</span>
-                 </div>
+                 <div class="product__picture" style="background-image: url('images/products/pepper.jpg');"></div>
                </a>
 
                <h3 class="product__text">Перец оранжевый, 1кг</h3>
@@ -659,26 +518,14 @@
 
                  <div class="product__counter counter">
                    <button class="counter__btn btn" data-direction="minus"
-                     style="background-image: url('images/product-card/minus.svg');" type="button">
-                     <span class="sr-only">Убавить товар</span>
-                   </button>
-
-                   <span>
-                     <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
-                     <span class="sr-only">Количество товара</span>
-                   </span>
-
+                     style="background-image: url('images/product-card/minus.svg');"></button>
+                   <input class="counter__value" type="text" value="1" maxlength="2" min="0" name="counter" required>
                    <button class="counter__btn counter__btn--border " data-direction="plus"
-                     style="background-image: url('images/product-card/plus.svg');" type="button">
-                     <span class="sr-only">Добавить товар</span>
-                   </button>
+                     style="background-image: url('images/product-card/plus.svg');"></button>
                  </div>
 
                  <button class="product__bottom-cart" type="button">
-                   <span class="sr-only">Добавить в корзину</span>
-
-                   <span class="product__bottom-cart-img"
-                     style="background-image: url('images/product-card/cart-btn.svg');"></span>
+                  <span class="product__bottom-cart-img" style="background-image: url('images/product-card/cart-btn.svg');"></span>
                  </button>
                </div>
              </article>
@@ -771,8 +618,6 @@
            <ul class="footer__adds-list social">
              <li class="social__item">
                <a class="social__link" href="#" target="_blank">
-                 <span class="sr-only">Страничка в Facebook</span>
-
                  <svg width="32" height="32" viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg">
                    <g clip-path="url(#clip0_1922_1581)">
                      <path
@@ -789,8 +634,6 @@
 
              <li class="social__item">
                <a class="social__link" href="#" target="_blank">
-                 <span class="sr-only">Страничка в Youtube</span>
-
                  <svg width="32" height="32" viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg">
                    <g clip-path="url(#clip0_1922_1579)">
                      <path
@@ -807,8 +650,6 @@
 
              <li class="social__item">
                <a class="social__link" href="#" target="_blank">
-                 <span class="sr-only">Страничка в Telegram</span>
-
                  <svg width="32" height="32" viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg">
                    <g clip-path="url(#clip0_1922_1577)">
                      <path
@@ -826,8 +667,6 @@
 
              <li class="social__item">
                <a class="social__link" href="#" target="_blank">
-                 <span class="sr-only">Страничка в Instagram</span>
-
                  <svg class="ppp" width="32" height="32" viewBox="0 0 32 32" fill="white"
                    xmlns="http://www.w3.org/2000/svg">
                    <path
@@ -855,18 +694,12 @@
            <ul class="footer__bottom-pay-sys pay-sys">
              <li class="pay-sys__item">
                <a class="pay-sys__link pay-sys__link--width" href="#" target="_blank"
-                 style="background-image: url('images/footer/payments/visa.svg');">
-
-                 <span class="sr-only">Оплата для Visa</span>
-               </a>
+                 style="background-image: url('images/footer/payments/visa.svg');"></a>
              </li>
 
              <li class="pay-sys__item">
                <a class="pay-sys__link" href="#" target="_blank"
-                 style="background-image: url('images/footer/payments/mastercard.svg');">
-
-                 <span class="sr-only">Оплата для Mastercard</span>
-               </a>
+                 style="background-image: url('images/footer/payments/mastercard.svg');"></a>
              </li>
            </ul>
          </div>

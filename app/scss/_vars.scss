@@ -1,0 +1,64 @@
+$green-900: #63A60F;
+
+$green-200: #E0EDCF;
+
+$green-100: #EFF6E7;
+
+$dark-900: #121212;
+   
+$dark-800: #31352B;
+
+$dark-500: #505050;
+
+$red-900: #CF3E3B;
+
+$orange-900: #FF7A00;
+
+$yellow-900: #FFB800;
+
+$silver-600: #C1C1C1;
+
+$silver-100: #F6F6F6;
+
+$white: #FFFFFF;
+
+$ruba:'Ruda', sans-serif;
+
+$opensans: "Open Sans", sans-serif;
+
+$lh-normal: 1;
+
+$fz-16: 16px;
+
+$fw-600: 600;
+
+$fw-700: 700;
+
+%header-focus{
+    box-shadow: 0 0 0 3px $green-100;
+    border-radius: 3px;
+}
+
+%header-hover{
+    opacity: 0.7;
+}
+
+%header-active{
+    color:$green-200; 
+    border: none;
+    box-shadow: none;
+}
+
+%btn-focus{
+    box-shadow: 0 0 0 4px $green-200;
+    border-radius: 3px;
+}
+
+%btn-hover{
+    background-color: #4D800C;
+}
+
+%btn-active{
+    color: rgba($white, 0.5);
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+}

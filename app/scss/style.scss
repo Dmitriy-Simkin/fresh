@@ -4,7 +4,7 @@
 @import 'global';
 
 .height{
-    height: 1807px;
+    height: 1806px;
 }
 
 .sr-only {
@@ -52,7 +52,7 @@
         background-color: $dark-800;
     }
 
-    &__top-inner{
+    .header__top-inner{
         display: flex;
         justify-content: space-between;
         padding: 14px 0;
@@ -78,13 +78,13 @@
         margin-right: 24px;
     }
 
-    &__list{
+    .header__list{
         display: flex;
         align-items: center;
         margin: 0 auto;
     }
     
-    &__list-item{
+    .header__list-item{
         display: flex;
         height: 50px;
         width: 50px;
@@ -113,7 +113,7 @@
         }
     
         &:not(:last-child){
-            margin-right: 7px;
+            margin-right: 12px;
         }
     }
     
@@ -121,7 +121,7 @@
         display: block;
         height: 35px;
         width: 35px;
-        background-size: auto;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
         position: relative;
@@ -344,23 +344,22 @@
 
 .form{
     display: flex;
-    max-width: 578px;
+    max-width: 576px;
     width: 100%;
-    margin-right: 57px;
+    margin-right: 54px;
     border-radius: 6px;
 
     &__search{
         padding: 15px 15px 15px 52px;
         border-top-left-radius: 6px;
         border-bottom-left-radius: 6px;
-        border: 1px solid #63A60E;
         color: $dark-800;
         width: 100%;
         background: url('../images/header/icon-search.svg') no-repeat 10px center $white;
         outline: transparent;
 
         &:focus{
-            @extend %input-focus;
+            box-shadow:0 0 0 3px #E0EDCF inset;
         }
     } 
 
@@ -597,7 +596,7 @@
 .filters{
     display: flex;
     justify-content: center;
-    margin-bottom: 47px;
+    margin-bottom: 51px;
 }
 
 .filters__item:not(:last-child){
@@ -634,7 +633,7 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 30px;
-        margin-bottom: 47px;
+        margin-bottom: 48px;
     }
 
         &__btn{
@@ -675,6 +674,10 @@
         margin-bottom: 62px;
     }
     
+    &__header span:not(:last-child){
+        margin-bottom: 6px;
+    }
+    
     &__header-badges{
         position: absolute;
         display: block;
@@ -709,7 +712,7 @@
     &__header-like{
         position: absolute;
         right: 12px;
-        top: 15px;
+        top: 12px;
         width: 32px;
         height: 28px;
     }
@@ -717,6 +720,7 @@
     &__picture{
         height: 215px;
         width: 100%;
+        margin-bottom: 18px;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -762,7 +766,7 @@
     &__text{
         display: block;
         margin: auto 0;
-        padding: 0 16px 16px;
+        padding: 0 18px 17px;
         word-wrap: break-word;
         font-weight: $fw-600;
         letter-spacing: 0.03em;
@@ -827,12 +831,12 @@
             @extend %btn-hover;
         }
 
+        &:hover .product__bottom-cart-img{
+            opacity: 0.4;
+        }
+    
         &:active{
             @extend %btn-active;
-        }
-
-        &:active .product__bottom-cart-img{
-            opacity: 0.4;
         }
     }
 }
@@ -910,12 +914,6 @@
         border-bottom-left-radius: 6px;
         color: #4F4F4F;
         background-color: $white;
-        border: 1px solid #63A60E;
-        outline: transparent;
-
-        &:focus{
-            @extend %input-focus;
-        }
     }
     
     &__form-btn{
